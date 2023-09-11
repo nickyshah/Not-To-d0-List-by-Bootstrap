@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Not To-Do List</title>
+</head>
+<body>
+    <div class="wrapper">
+       
+       <div class="container">
+         <!-- Top Title -->
+        <div class="row gap-2">
+            <div class="col mt-5 text-center">
+                <h1>Not to do list</h1>
+            </div>
+            
+            </div>
+        
+    
+
+
+    <!-- form -->
+        <form action="" class="mt-5 border p-4 rounded shadow-lg bg-transparent ">
+            <div class="row  g-2" >
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Coding.." aria-label="First name" name="task">
+                </div>
+                <div class="col-md-3">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" name="hr">
+                </div>
+                <div class="col-md-3">
+                    <div class="d-grid">
+                    <button class="btn btn-primary">Add task</button>
+                </div>
+                </div>
+                
+            </div>
+        </form>
+
+
+    <!-- Table area  -->
+        <div class="row mt-5 pt-2">
+             <!-- Entry List  -->
+            <div class="col-md">
+                <h3 class="text-center">Task Entry List</h3> 
+                <hr>
+                <table class="table table-striped table-hover border ">
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Coding</td>
+                        <td>40hr</td>
+                        <td class="text-end">
+                            <button class="btn btn-success"><i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                      <tr>
+                        <td>1</td>
+                        <td>Coding</td>
+                        <td>40hr</td>
+                        <td class="text-end">
+                            <button class="btn btn-success"><i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                      <tr>
+                        <td>1</td>
+                        <td>Coding</td>
+                        <td>40hr</td>
+                        <td class="text-end">
+                            <button class="btn btn-success"><i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+
+            <!-- Bad List -->
+            <div class="col-md">
+                <h3 class="text-center">Bad list</h3> 
+                <hr>
+                <table class="table table-striped table-hover border ">
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Coding</td>
+                        <td>40hr</td>
+                        <td class="text-end">
+                            <button class="btn btn-warning"><i class="fa-solid fa-arrow-left"></i></i>
+                            </button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                      
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Coding</td>
+                        <td>40hr</td>
+                        <td class="text-end">
+                            <button class="btn btn-warning"><i class="fa-solid fa-arrow-left"></i></i>
+                            </button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                      
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Coding</td>
+                        <td>40hr</td>
+                        <td class="text-end">
+                            <button class="btn btn-warning"><i class="fa-solid fa-arrow-left"></i></i>
+                            </button>
+                            <button class="btn btn-danger"><i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                      
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="alert alert-info">You could have saved = 50hr</div>
+            </div>
+        </div>
+
+                
+
+                 
+
+
+     <!-- Total Time allocated -->
+     <div class="alert alert-info">
+        Total hrs per week allocated = 100hr
+     </div>
+    </div>
+       </div>
+       
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
