@@ -40,7 +40,7 @@ displayBadTask()
 
 const displayEntryTask = () => {
     let str = ``
-
+console.log(taskList)
     const entryLisTOnly = taskList.filter((item, i) => item.type === "entry");
 
     entryLisTOnly.map((item, i) => {
@@ -59,7 +59,7 @@ const displayEntryTask = () => {
         </button>
        
     </td>
-    <tr>`
+    </tr>`
         console.log(item, i)
     })
 
@@ -90,7 +90,7 @@ const displayBadTask = () => {
         class="btn btn-danger"><i class="fa-solid fa-trash"></i>
         </button>
     </td>
-    <tr>`
+    </tr>`
         // console.log(item, i)
     })
 
@@ -124,8 +124,8 @@ const switchTask = (id, type) => {
                 ...item,
                 type,
             }
-            return item
-        }
+           
+        } return item
     })
     displayEntryTask()
     displayBadTask()
